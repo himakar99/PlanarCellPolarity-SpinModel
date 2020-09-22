@@ -1,0 +1,13 @@
+26/2/2020
+Changes made by BB:
+1) Commenting in all files edited
+2) Input section in main is edited and rearragned
+3) Output on screen is edited
+4) Energy record now stores Energy PER cell
+
+------------------------------
+06/3/2020
+Changes made by Himakar:
+1) For-loop for burningPhase and sampling phase in main file has been updated.
+2) Complete_alignment.txt and Alignment_direction.txt store data without tab delimitation.
+3) Additions to the log file. Time elapsed to run the program, mcmcSteps, burningPhase, No of data samples 

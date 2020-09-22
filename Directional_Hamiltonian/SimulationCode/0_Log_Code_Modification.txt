@@ -1,0 +1,14 @@
+7/03/2020
+Modifications:
+1) Addition of new external field parameter m3. (mcmc function takes this as a parameter)
+2) randSpin can now take values 0, 1, 2.
+3) Energy_calc, a utility function to calculate total energy in main, has been modified in correspondence to the introduction of a new parameter to the hamiltonian.  
+0 = All cells completely aligned in any of the 6 directions
+1 = All cells are randomly spin-seeded
+2 = All cells completely aligned in zero direction
+4) seedSpin_func is now modified to seedSpin_func_dir to distinguish the modifications. The variable allConfig in dir has been modified. 
+------------------------------
+8/3/2020
+Biplab
+
+The following are switched off by commenting:Line 68: filecount; Line 37: filename; Line 38: timenow

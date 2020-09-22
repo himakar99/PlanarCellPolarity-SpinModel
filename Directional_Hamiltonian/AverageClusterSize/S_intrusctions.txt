@@ -1,0 +1,12 @@
+How to use: S_data.c
+
+1. Place the code in the folder containing the various run folders
+2. Input the values of dimension of lattice (DIM), Number of data samples per run (DATA_SAMPLES), Starting folder (R_I), Final folder (R_F), and the name of the m3 folder.
+
+Output: 
+1. For a given value of m3 and DIM, the code combines the m1-m2 data across multiple runs to calculate Average Cluster Size and its standard error. 
+2. The output is stored in the same folder as the runs are present in. 
+3. Format of the output file is S_(lDIM)_(m3)_(m1-m2).csv
+
+Modifications:
+8/09/20: Added an input variable "int run[RUNS]", an integer array holding specific run values. RUNS is a variable representing the number of runs. 

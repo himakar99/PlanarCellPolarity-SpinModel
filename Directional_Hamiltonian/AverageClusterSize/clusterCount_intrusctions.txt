@@ -1,0 +1,8 @@
+How to use: ClusterCount_3.c
+
+1. Place the code in a selected m3 folder.
+2. Input the values of dimension of lattice (DIM), Number of data samples per run (DATA_SAMPLES), Starting folder (R_I), Final folder (R_F) under that m3 value.
+3. Place the nbr_create.c file in the same folder as the programme
+
+Output: 
+The code outputs a file corresponding to each m1-m2 combination. This output file contains the number of clusters of each size after excluding the count of the largest cluster in each sample. Each row corresponds to the cluster size while each column corresponds to the data sample in that run.
